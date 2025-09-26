@@ -1,1 +1,15 @@
-node_modules
+# Laravel
+/vendor
+/node_modules
+/.env
+/.idea
+/.vscode
+/storage/*.key
+/public/hot
+/public/storage
+/storage/*.log
+/storage/debugbar
+/bootstrap/cache/*.php
+
+# Docker
+docker-compose.override.yml
